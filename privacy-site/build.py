@@ -3,13 +3,16 @@
 Run from anywhere:  python privacy-site/build.py
 Writes the site into this repo's root (GitHub Pages serves it as can-albayrak.github.io):
 index.html, tilt-grid/, fuse-chain/, cuddle-pop/ (each an index.html).
-The game repos must sit next to this repo (same parent folder).
+The game repos must sit next to this repo (same parent folder), each on the branch that
+is live in Play (e.g. play-release); it refuses to run while a policy has an unfilled
+[placeholder].
 Only the subset of Markdown the policies use is supported: # headings, paragraphs,
 "- " lists, **bold**, `code` and bare https:// links.
 """
 import html
 import os
 import re
+import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
@@ -91,8 +94,12 @@ def main() -> None:
     for slug, name, repo in GAMES:
         with open(os.path.join(ROOT, repo, "docs", "PRIVACY_POLICY.md"), encoding="utf-8") as f:
             md = f.read()
-        if "[" in md and "contact" in md.lower() and re.search(r"\[[^\]]*contact[^\]]*\]", md, re.I):
-            print(f"WARNING: {repo}/docs/PRIVACY_POLICY.md still has a contact placeholder")
+        # A placeholder like "[date version 1.1 is released]" means the policy is not final,
+        # or the game repo is on a branch whose policy is not live yet: stop.
+        left = re.findall(r"\[[^\]\n]+\](?!\()", md)
+        if left:
+            sys.exit(f"{repo}/docs/PRIVACY_POLICY.md has unfilled placeholders {left}: fill them, "
+                     f"or check out the branch that is live in Play (git -C {repo} branch --show-current).")
         os.makedirs(os.path.join(OUT, slug), exist_ok=True)
         with open(os.path.join(OUT, slug, "index.html"), "w", encoding="utf-8") as f:
             f.write(PAGE.format(title=f"{name} Privacy Policy", body=to_html(md)))
