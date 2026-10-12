@@ -1,0 +1,3 @@
+# Encoded clips are big; regenerate with marketing/make_videos.py
+marketing/videos/
+__pycache__/
