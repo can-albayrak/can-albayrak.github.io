@@ -28,7 +28,7 @@ GAMES = {
             ("2_play", "Place the blocks,\nfill the lines", "Blokları yerleştir,\nsatırları doldur"),
             ("6_level", "Break the\ngray blocks", "Gri blokları\nkır"),
             ("5_levels", "100 levels\n+ endless mode", "100 bölüm\n+ sonsuz mod"),
-            ("1_menu", "Play offline,\nno ads", "İnternetsiz oyna,\nreklam yok"),
+            ("1_menu", "Play offline,\nno account needed", "İnternetsiz oyna,\nhesap gerekmez"),
         ],
     },
     "fuse": {
