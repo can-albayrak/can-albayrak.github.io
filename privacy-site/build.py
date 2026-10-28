@@ -2,7 +2,7 @@
 
 Run from anywhere:  python privacy-site/build.py
 Writes the site into this repo's root (GitHub Pages serves it as can-albayrak.github.io):
-index.html, tilt-grid/, fuse-chain/, cuddle-pop/ (each an index.html).
+index.html, tilt-grid/, fuse-chain/, cuddle-pop/, kadro/ (each an index.html).
 The game repos must sit next to this repo (same parent folder), each on the branch that
 is live in Play (e.g. play-release); it refuses to run while a policy has an unfilled
 [placeholder].
@@ -22,6 +22,7 @@ GAMES = [
     ("tilt-grid", "Tilt Grid", "tild-grid"),
     ("fuse-chain", "Fuse Chain", "fuse-chain"),
     ("cuddle-pop", "Cuddle Pop", "cuddle-pop"),
+    ("kadro", "Kadro Açık Artırması", "team-deal-versus"),
 ]
 
 PAGE = """<!doctype html>
