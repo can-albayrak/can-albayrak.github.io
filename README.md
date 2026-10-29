@@ -7,3 +7,7 @@ Public site for Can Albayrak's games, served by GitHub Pages.
 - Marketing tools (store screenshots, video clips, posting plan) moved to the private `studio` repo, folder `marketing/`.
 
 The game repos (private) must sit next to this repo for the scripts to find them.
+
+## Triangle / Üçgen
+
+`triangle/index.html` (English) and `triangle/tr.html` (Turkish) are standalone privacy policies for the offline, ad-free0.9.9-beta candidate. Sources are `release/privacy/` and in-app `art/licenses/privacy_*.txt` in the `the-triangle` project. The shared multi-game generator does not overwrite this folder. No other game policy or site index was changed.
