@@ -1,4 +1,4 @@
-# Peak Studios
+# WildCat Studios
 
 > Small puzzle and arcade games for Android, made in Godot. Contact: canalbayrak.games@gmail.com
 
