@@ -1,6 +1,6 @@
 # WildCat Studios
 
-> Small puzzle and arcade games for Android, made in Godot. Contact: canalbayrak.games@gmail.com
+> Small puzzle and arcade games and calm everyday apps for Android and iOS. Contact: canalbayrak.games@gmail.com
 
 ## Games
 
@@ -8,6 +8,7 @@
 - [Fuse Chain](https://can-albayrak.github.io/fuse-chain/): A hex puzzle with a fuse: draw a path through gems, light it and set off a chain reaction. Short levels, plays offline. Status: closed test. Package: com.wildcatstudios.fusechain.
 - [Cuddle Pop](https://can-albayrak.github.io/cuddle-pop/): Gentle tap-and-pop games for toddlers: big shapes, soft sounds, no reading needed. Made for parents of 1-4 year olds. Status: in development. Package: com.cuddlepop.kids.
 - [SpiderBot: Neon Run](https://can-albayrak.github.io/spiderbot-neon-run/): A neon rooftop runner: a spider robot swings, climbs and parkours across a cyberpunk city. Status: closed test. Package: com.spiderbot.neon.
+- [Sprig](https://can-albayrak.github.io/sprig/): A private tracker for nail biting, skin picking and hair pulling: log an urge in two taps, see your patterns and grow a small world on good days. Status: in development. Package: com.wildcat.sprig.
 - [Sold! Soccer Squad Builder](https://can-albayrak.github.io/team-deal-versus/): A two-player football auction: bid on real footballers with the same budget, build a squad for the challenge and let real career stats decide the winner. Status: in development. Package: com.wildcat.kadro.
 - [Project Cauldron](https://can-albayrak.github.io/project-cauldron/): A conveyor-sort puzzle: send alchemists around a track to shoot matching-color cubes, clear the board and reveal the recipe underneath. Status: in development. Package: com.peakstudios.cauldron.
 
