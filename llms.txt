@@ -4,13 +4,14 @@
 
 ## Games
 
-- [Tilt Grid](https://can-albayrak.github.io/tilt-grid/): A gravity block puzzle: rotate the whole board so blocks fall, lines clear and chains grow. Short offline sessions. Status: closed test. Package: com.tiltgrid.can.
-- [Fuse Chain](https://can-albayrak.github.io/fuse-chain/): A hex puzzle with a fuse: draw a path through gems, light it and set off a chain reaction. Short levels, plays offline. Status: closed test. Package: com.wildcatstudios.fusechain.
+- [Tilt Grid](https://can-albayrak.github.io/tilt-grid/): A gravity block puzzle: rotate the whole board so blocks fall, lines clear and chains grow. Short offline sessions. Status: live. Package: com.tiltgrid.can.
+- [Fuse Chain](https://can-albayrak.github.io/fuse-chain/): A hex puzzle with a fuse: draw a path through gems, light it and set off a chain reaction. Short levels, plays offline. Status: live. Package: com.wildcatstudios.fusechain.
+- [Triangle](https://can-albayrak.github.io/triangle/): Complete lines and find triangles in 120 minimalist logic puzzles. Status: live. Package: com.canalbayrak.triangle.
 - [Cuddle Pop](https://can-albayrak.github.io/cuddle-pop/): Gentle tap-and-pop games for toddlers: big shapes, soft sounds, no reading needed. Made for parents of 1-4 year olds. Status: in development. Package: com.cuddlepop.kids.
 - [SpiderBot: Neon Run](https://can-albayrak.github.io/spiderbot-neon-run/): A neon rooftop runner: a spider robot swings, climbs and parkours across a cyberpunk city. Status: closed test. Package: com.spiderbot.neon.
-- [Seedle](https://can-albayrak.github.io/seedle/): A private tracker for nail biting, skin picking and hair pulling: log an urge in two taps, see your patterns and grow a small world on good days. Status: in development. Package: com.wildcat.seedle.
+- [Grovly](https://can-albayrak.github.io/grovly/): A private tracker for nail biting, skin picking and hair pulling: log an urge in two taps, see your patterns and grow a small world on good days. Status: in development. Package: com.wildcat.grovly.
 - [Sold! Soccer Squad Builder](https://can-albayrak.github.io/team-deal-versus/): A two-player football auction: bid on real footballers with the same budget, build a squad for the challenge and let real career stats decide the winner. Status: in development. Package: com.wildcat.kadro.
-- [Project Cauldron](https://can-albayrak.github.io/project-cauldron/): A conveyor-sort puzzle: send alchemists around a track to shoot matching-color cubes, clear the board and reveal the recipe underneath. Status: in development. Package: com.peakstudios.cauldron.
+- [Project Cauldron](https://can-albayrak.github.io/project-cauldron/): A color shooter puzzle with slimes: send them around the belt to blast matching cubes and reveal the pixel picture underneath. Status: closed test prep. Package: com.wildcatstudios.cauldron.
 
 ## Pages
 
